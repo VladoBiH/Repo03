@@ -1,7 +1,9 @@
 function main() {
     // Only change code below this line
-    console.log("Hello World!");
+    var x = 10;
+    y = x;
     // Only change code above this line
+    return [x, y];
     }
-    main();
+    console.log(main());
     module.exports = main;
